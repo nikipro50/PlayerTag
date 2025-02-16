@@ -14,6 +14,10 @@ public class PlayerTagCommand implements CommandExecutor {
             sender.sendMessage(ConfigManager.MESSAGES_NO_PERMS.getFormattedString());
             return true;
         }
+        if (args.length < 1) {
+            ConfigManager.MESSAGES_HELP.getList().forEach(sender::sendMessage);
+            return true;
+        }
         if (args[0].equalsIgnoreCase("help")) {
             ConfigManager.MESSAGES_HELP.getList().forEach(sender::sendMessage);
             return true;
