@@ -1,0 +1,13 @@
+name: PlayerTag
+version: '${project.version}'
+main: dev.nikipro50.playertag.PlayerTag
+api-version: '1.13'
+authors: [ nikipro50 ]
+description: Tag a player
+commands:
+  playertag:
+    aliases:
+      - tagplayer
+
+
+

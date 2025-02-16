@@ -1,0 +1,38 @@
+#
+#   _____  _                    _______
+# |  __ \| |                  |__   __|
+# | |__) | | __ _ _   _  ___ _ __| | __ _  __ _
+# |  ___/| |/ _` | | | |/ _ \ '__| |/ _` |/ _` |
+# | |    | | (_| | |_| |  __/ |  | | (_| | (_| |
+# |_|    |_|\__,_|\__, |\___|_|  |_|\__,_|\__, |
+#                  __/ |                   __/ |
+#                 |___/                   |___/
+#
+# Plugin developed by nikipro50 (@Negazioneh on Telegram)
+# Version: 1.0
+#
+# Config support hex (&#FFFFFF)
+#
+
+Format: '&@%player%'
+
+Messages:
+  NoPerms: "&cYou don't have permission."
+  ConfigReloaded: "&fConfig reloaded in &#E37F00&n%ms%ms&f!"
+
+  Help:
+    - " &#E37F00&lPlayerTag &8• &7Commands"
+    - ""
+    - " &f/playertag reload &8• &7Reload the config"
+    - " &f/playertag help &8• &7Show this message"
+    - ""
+
+Options:
+  Permission:
+    Required: true
+    Permission: "playertag.use"
+  Sound:
+    Enabled: true
+    Type: "PIANO"
+
+
