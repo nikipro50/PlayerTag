@@ -14,7 +14,7 @@
 # Config support hex (&#FFFFFF)
 #
 
-Format: '&@%player%'
+Format: '&#E37F00@%player%'
 
 Messages:
   NoPerms: "&cYou don't have permission."
